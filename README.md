@@ -27,4 +27,19 @@ YOLOv8, an iteration of the You Only Look Once (YOLO) object detection model, is
 ### UNet:
 UNet, a convolutional neural network architecture designed for biomedical image segmentation, is employed for its ability to capture intricate features and spatial relationships within wheat head images. It excels in scenarios where precise delineation of objects is essential.
 
+### ONNXRunTime (ORT) :
+In this project, we have incorporated ONNXRunTime (ORT) to enhance the performance and efficiency of our wheat head segmentation models. Here's how ONNXRunTime contributes to our project:
+#### Key Features:
+-High preformance runtime for ONNX models.
+-Supports full ONNX-ML-sepc.
+-Available for linux,Windows,and Mac .
+-Run with CPU and GPU with extensible architecture to plug in additinal hardware accelerators .
 
+#### Deployment:
+We have converted the weights of our best-performing models into ONNX format and deployed them alongside the ONNXRunTime framework. This deployment strategy ensures efficient inference capabilities, allowing us to accurately segment wheat heads in various agricultural settings.
+
+#### Availability:
+ONNXRunTime is available for Linux, Windows, and macOS platforms, making it accessible for a wide range of users and environments.
+
+## Presentation
+For more details, please refer to our presentation <a href="https://prezi.com/p/edit/82mp0tnvfqoq/">here</a>
