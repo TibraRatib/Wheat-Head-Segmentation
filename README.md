@@ -36,7 +36,7 @@ In this project, we have incorporated ONNXRunTime (ORT) to enhance the performan
 -Run with CPU and GPU with extensible architecture to plug in additinal hardware accelerators .
 
 #### Deployment:
-We have converted the weights of our best-performing models into ONNX format and deployed them alongside the ONNXRunTime framework. This deployment strategy ensures efficient inference capabilities, allowing us to accurately segment wheat heads in various agricultural settings.
+We have converted the weights of our best-performing models into ONNX format and deployed them alongside the ONNXRunTime framework. This deployment strategy ensures efficient inference capabilities, allowing us to accurately segment wheat heads in various agricultural settings. You can find we models [here](https://drive.google.com/drive/folders/11CWRgPeN7cnCOAoIh6PggfThmp0DUf6r?usp=sharing).
 
 #### Availability:
 ONNXRunTime is available for Linux, Windows, and macOS platforms, making it accessible for a wide range of users and environments.
