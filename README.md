@@ -30,10 +30,10 @@ UNet, a convolutional neural network architecture designed for biomedical image 
 ### ONNXRunTime (ORT) :
 In this project, we have incorporated ONNXRunTime (ORT) to enhance the performance and efficiency of our wheat head segmentation models. Here's how ONNXRunTime contributes to our project:
 #### Key Features:
--High preformance runtime for ONNX models.
--Supports full ONNX-ML-sepc.
--Available for linux,Windows,and Mac .
--Run with CPU and GPU with extensible architecture to plug in additinal hardware accelerators .
+- High preformance runtime for ONNX models.
+- Supports full ONNX-ML-sepc.
+- Available for linux,Windows,and Mac .
+- Run with CPU and GPU with extensible architecture to plug in additinal hardware accelerators .
 
 #### Deployment:
 We have converted the weights of our best-performing models into ONNX format and deployed them alongside the ONNXRunTime framework. This deployment strategy ensures efficient inference capabilities, allowing us to accurately segment wheat heads in various agricultural settings. You can find we onnx models [here](https://drive.google.com/drive/folders/11CWRgPeN7cnCOAoIh6PggfThmp0DUf6r?usp=sharing).
@@ -44,14 +44,14 @@ ONNXRunTime is available for Linux, Windows, and macOS platforms, making it acce
 
 
 ## Requirements :
--Python 3
--OpenCV (cv2)
--PyTorch (torch)
--NumPy (numpy)
--Matplotlib (matplotlib)
--Pillow (PIL)
--Transformers (transformers)
--ONNXRuntime (onnxruntime)
+- Python 3
+- OpenCV (cv2)
+- PyTorch (torch)
+- NumPy (numpy)
+- Matplotlib (matplotlib)
+- Pillow (PIL)
+- Transformers (transformers)
+- ONNXRuntime (onnxruntime)
 
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/82mp0tnvfqoq/">here</a>
