@@ -41,5 +41,17 @@ We have converted the weights of our best-performing models into ONNX format and
 #### Availability:
 ONNXRunTime is available for Linux, Windows, and macOS platforms, making it accessible for a wide range of users and environments.
 
+
+
+## Requirements :
+-Python 3
+-OpenCV (cv2)
+-PyTorch (torch)
+-NumPy (numpy)
+-Matplotlib (matplotlib)
+-Pillow (PIL)
+-Transformers (transformers)
+-ONNXRuntime (onnxruntime)
+
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/82mp0tnvfqoq/">here</a>
