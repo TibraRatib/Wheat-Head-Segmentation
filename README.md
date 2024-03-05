@@ -12,13 +12,11 @@ The dataset used for this project is sourced from the Global Wheat Detection [da
 ### Data Annotation:
 CVAT was used for annotation, making the dataset ready for training the segmentation models (YOLOv8 , SAM , UNet).
 
-Example Annotated Images:
-
+CVAT Platform:
 <div style="display: flex; flex-direction: column; justify-content: space-between;">
-  <img src="examples/annotated/1.png" alt="Example Annotated Image 1" width="300"/>
-  <img src="examples/annotated/2.png" alt="Example Annotated Image 2" width="300"/>
-</div>
-
+  <img src="Examples/CVAT_platform.png" alt="Example Annotated Image 1"/>
+ </div>
+ 
 ## Methodology
 The project utilizes three distinct architectures for wheat head segmentation:
 
